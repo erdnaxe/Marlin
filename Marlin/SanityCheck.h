@@ -1286,7 +1286,7 @@ static_assert(1 >= 0
 #if HAS_AUTO_FAN && EXTRUDER_AUTO_FAN_SPEED != 255
   #define AF_ERR_SUFF "_AUTO_FAN_PIN is not a PWM pin. Set EXTRUDER_AUTO_FAN_SPEED to 255."
   #if HAS_AUTO_FAN_0
-    static_assert(GET_TIMER(E0_AUTO_FAN_PIN), "E0" AF_ERR_SUFF);
+    //static_assert(GET_TIMER(E0_AUTO_FAN_PIN), "E0" AF_ERR_SUFF);
   #elif HAS_AUTO_FAN_1
     static_assert(GET_TIMER(E1_AUTO_FAN_PIN), "E1" AF_ERR_SUFF);
   #elif HAS_AUTO_FAN_2

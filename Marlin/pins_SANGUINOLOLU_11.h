@@ -115,7 +115,7 @@
 #endif
 
 #if MB(AZTEEG_X1) || MB(STB_11) || ENABLED(IS_MELZI)
-  #define FAN_PIN           4 // Works for Panelolu2 too
+  #define FAN1_PIN           4 // Works for Panelolu2 too
 #endif
 
 //
