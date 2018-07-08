@@ -59,6 +59,8 @@
   #define THERMISTOR_NAME "E3104FXT (alt)"
 #elif THERMISTOR_ID == 13
   #define THERMISTOR_NAME "Hisens 3950"
+#elif THERMISTOR_ID == 16
+  #define THERMISTOR_NAME "ATC Semitec 104GT-2 (Dagoma)"
 #elif THERMISTOR_ID == 20
   #define THERMISTOR_NAME "PT100 UltiMB"
 #elif THERMISTOR_ID == 60
